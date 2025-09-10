@@ -4,12 +4,13 @@ main {
     min-height: 100vh;
     padding: 1rem;
     margin: 0;
-    transition: all .5s ease-in-out;
+    background-color: #023047;
 }
 
 #page-const{
     text-align: center;
     font-size: xx-large;
+    color: white;
 }
 
 #page-const span{
