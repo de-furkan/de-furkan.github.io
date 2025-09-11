@@ -1,18 +1,15 @@
-main {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    padding: 1rem;
-    margin: 0;
-    background-color: #023047;
-}
-
 #page-const{
     text-align: center;
-    font-size: xx-large;
     color: white;
+    border: 1px solid white;
+    max-width: calc(300/16 * 1rem);
+    padding: 2rem;
+    border: 3px dashed white;
+    line-height: 1.15;
 }
 
 #page-const span{
-    color: #c1121f;
+    color: lightcoral;
+    display: block;
+    margin-block-start: 2rem;
 }
