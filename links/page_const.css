@@ -3,13 +3,24 @@
     color: white;
     border: 1px solid white;
     max-width: calc(300/16 * 1rem);
+    min-height: calc(250/16 * 1rem);
     padding: 2rem;
     border: 3px dashed white;
     line-height: 1.15;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 #page-const span{
     color: lightcoral;
     display: block;
-    margin-block-start: 2rem;
+}
+
+#page-const p {
+    margin-top: auto;
+}
+
+#page-const p a{
+    color: white;
+    text-decoration: underline;
 }
